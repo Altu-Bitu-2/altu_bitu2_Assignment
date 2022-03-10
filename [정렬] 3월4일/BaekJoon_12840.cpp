@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define day 86400 //ÇÏ·ç = 86400ÃÊ
+#define day 86400 //í•˜ë£¨ = 86400ì´ˆ
 
 
 
@@ -12,9 +12,9 @@ int main() {
 
 
 	int h, m, s, q, x, f, b;
-	cin >> h >> m >> s >> q;		//ÇöÀç ½Ã°£
+	cin >> h >> m >> s >> q;		//í˜„ì¬ ì‹œê°„
 
-	int cur_time = 3600 * h + 60 * m + s;	//ÇöÀç ½Ã°£À» ÃÊ·Î Ç¥½Ã
+	int cur_time = 3600 * h + 60 * m + s;	//í˜„ì¬ ì‹œê°„ì„ ì´ˆë¡œ í‘œì‹œ
 
 
 	for (int i = 0; i < q; i++) {
